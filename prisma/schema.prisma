@@ -21,3 +21,13 @@ model todo {
 
   @@map("todo_list_table")
 }
+
+
+model elias {
+  id String @id
+  name String
+  phone_number String
+  email String @unique
+
+  @@map("student_info_table")
+}
