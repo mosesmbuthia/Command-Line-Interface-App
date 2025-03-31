@@ -11,6 +11,14 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "commander": "^13.1.0"
+    "@prisma/client": "^6.5.0",
+    "chalk": "^5.4.1",
+    "cli-table3": "^0.6.5",
+    "commander": "^13.1.0",
+    "nanoid": "^5.1.5",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.5.0"
   }
 }
